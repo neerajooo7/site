@@ -8,12 +8,12 @@ body{
     background-repeat: no-repeat;
     width: 100%;
     background-size: cover;
-    overflow: hidden;
+    /* overflow: hidden; */
     
     /* background-position: -400px 0px; */
 }
 div.main{
-    width: 30%;
+    width: 50%;
      margin:100px auto 0px auto; 
 }
 h2{
@@ -67,6 +67,21 @@ input#submit{
 label,span,h2{
     text-shadow: 1px 1px 5px rgba(0,0,0,0.3);
 }
+select{
+    
+    width: 100%;
+    padding: 7px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 5px rgba(255, 255, 255, 0.3);
+
+}
+span.star{
+    color: rgb(255, 61, 61);
+    text-shadow: 1px 2px 10px 20px;
+    text-shadow: 1px 2px 10px 20px;
+    text-shadow: 10px;
+}
+
 @media (max-width: 600px) {  
  div.main{  
       margin-top: 0px;
@@ -77,10 +92,8 @@ body{
     
     background-image: url(photo.jpg);
     background-repeat: no-repeat;
-    width: 100%;
-    height: 100vh;
-    /* background-size: cover; */
-    overflow: hidden;
+    background-position: center;
+    overflow: x hidden;
     
 }
 .register{
